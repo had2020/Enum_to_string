@@ -1,8 +1,8 @@
 # enum_to_string
 
 ![MSRV](https://img.shields.io/badge/Rust%20MSRV-1.78.0-brightgreen)
-[![crates.io](https://img.shields.io/crates/v/even_any_type.svg)](https://crates.io/crates/even_any_type)
-[![Downloads](https://img.shields.io/crates/d/even_any_type.svg)](https://crates.io/crates/even_any_type)
+[![crates.io](https://img.shields.io/crates/v/enum_to_string.svg)](https://crates.io/crates/enum_to_string)
+[![Downloads](https://img.shields.io/crates/d/enum_to_string.svg)](https://crates.io/crates/enum_to_string)
 
 Lightweight, utility for converting enum variant references to their string name.
 
