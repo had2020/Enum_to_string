@@ -2,7 +2,7 @@
 name = "enum_name"
 version = "0.0.1"
 edition = "2021"
-description = "Lightweight, utility for converting enum variant references to their string name."
+description = "No import Enum Verient to string conversion"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/had2020/enum_name"
 homepage = "https://github.com/had2020"
