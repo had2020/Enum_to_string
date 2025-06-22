@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "enum_to_string"
+name = "enum_name"
 version = "0.0.1"

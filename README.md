@@ -1,30 +1,30 @@
 # enum_to_string
 
 ![MSRV](https://img.shields.io/badge/Rust%20MSRV-1.78.0-brightgreen)
-[![crates.io](https://img.shields.io/crates/v/enum_to_string.svg)](https://crates.io/crates/enum_to_string)
-[![Downloads](https://img.shields.io/crates/d/enum_to_string.svg)](https://crates.io/crates/enum_to_string)
+[![crates.io](https://img.shields.io/crates/v/enum_name.svg)](https://crates.io/crates/enum_name)
+[![Downloads](https://img.shields.io/crates/d/enum_name.svg)](https://crates.io/crates/enum_name)
 
-Lightweight, utility for converting enum variant references to their string name.
+No import Enum Verient to string conversion
 
 ## Overview
 
-The `enum_to_string` crate provides a simple and efficient way to extract the name of an enum variant as a string or `&str`. This can be useful for logging, debugging, serialization, or any context where you want to display enum variant names without relying on custom formatting or derives.
+The `enum_name` crate provides a simple and efficient way to extract the name of an enum variant as a string or `&str`. This can be useful for logging, debugging, serialization, or any context where you want to display enum variant names without relying on custom formatting or derives.
 
 No dependencies, no macros, no `Debug` or `Display` traits required — just pure `std::any::type_name`.
 
 ---
 
-## 🔧 Usage
+## How to use
 
 Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-enum_to_string = "0.1"
+enum_name = "0.1"
 ```
 
 ```Rust
-use enum_to_string::{variant_to_str, variant_to_string};
+use enum_name::{variant_to_str, variant_to_string};
 
 #[derive(Debug)]
 enum Direction {
