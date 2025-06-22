@@ -1,6 +1,24 @@
 [package]
-name = "Enum_to_string"
-version = "0.1.0"
+name = "enum_to_string"
+version = "0.0.1"
 edition = "2021"
+description = "Lightweight, utility for converting enum variant references to their string name."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/had2020/Enum_to_string"
+homepage = "https://github.com/had2020"
+keywords = ["enum", "variant", "stringify", "conversion", "utility"]
+categories = ["rust-patterns", "data-structures", "no-std"]
+readme = "README.md"
+authors = ["Hadrian Lazic <hadrian.lazic@email.com>"]
+exclude = ["target/*", "*.lock"]
+
+[lib]
+path = "src/lib.rs"
+
+[profile.dev]
+opt-level = 1
+
+[profile.release]
+opt-level = 3
 
 [dependencies]

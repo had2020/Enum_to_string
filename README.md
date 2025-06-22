@@ -1,6 +1,10 @@
 # enum_to_string
 
-A lightweight, no-macro Rust utility for converting enum variant references to their string name.
+![MSRV](https://img.shields.io/badge/Rust%20MSRV-1.78.0-brightgreen)
+[![crates.io](https://img.shields.io/crates/v/even_any_type.svg)](https://crates.io/crates/even_any_type)
+[![Downloads](https://img.shields.io/crates/d/even_any_type.svg)](https://crates.io/crates/even_any_type)
+
+Lightweight, utility for converting enum variant references to their string name.
 
 ## Overview
 
