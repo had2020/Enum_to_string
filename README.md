@@ -1,4 +1,4 @@
-# enum_to_string
+# enum_name
 
 ![MSRV](https://img.shields.io/badge/Rust%20MSRV-1.78.0-brightgreen)
 [![crates.io](https://img.shields.io/crates/v/enum_name.svg)](https://crates.io/crates/enum_name)
