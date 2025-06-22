@@ -52,7 +52,8 @@ This is a zero-cost abstraction at runtime, as type_name::<T>() is evaluated sta
 
 Feel free to use, modify, and distribute, or contribute to the github.
 
-https://github.com/had2020/Enum_to_string
+[![GitHub](https://img.shields.io/badge/github-had2020%2Fenum__name-blue?logo=github)](https://github.com/had2020/enum_name)
+
 
 PRs welcome!
 
